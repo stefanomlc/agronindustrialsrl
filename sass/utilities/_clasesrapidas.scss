@@ -1,0 +1,64 @@
+/* --------- Clases rápidas ---------- */
+
+.max{
+    &__w450{
+        max-width: 450px;
+    }
+    &__w250{
+        max-width: 250px;
+    }
+    &__w150{
+        max-width: 150px;
+    }
+    &__h450{
+        max-height: 450px;
+    }
+    &__h250{
+        max-height: 250px;
+    }
+    &__h250{
+        min-height: 250px;
+    }
+
+}
+.min{
+    &__w250{
+        min-width: 250px;}
+    &__w450{
+        min-width: 450px;}
+}
+
+.degradez{
+    background-image: linear-gradient(to right, rgba(130, 118, 218, 1), rgba(105, 88, 222, 1));
+    border: 0px;
+}
+.fondo{
+    background-color: #1e17df;
+}
+
+.color__blanco{
+    color: #ffffff;
+}
+
+.fondo_blanco{
+    background-color: #ffffff;
+}
+.color__primario{
+    color: #302F4D;
+}
+
+.fuente__negra{
+    color: #1a1a1a;
+}
+
+/* ----- mixin ----- */
+
+@mixin dflex-row{
+    display:flex;
+    flex-direction:row;
+    }
+    
+@mixin dflex-col{
+    display:flex;
+    flex-direction:column;
+    }

@@ -1,0 +1,24 @@
+/* Utilidades */
+@import "utilities/_variables";
+@import "utilities/_clasesrapidas";
+
+/* VISTAS INDEX */
+@import "views/_index";
+
+/* LAYOUTS  */
+@import "layout/_footer";
+@import "layout/_header";
+
+/* Componentes */
+@import "components/botones";
+
+/* BASE DEL HTML */
+@import "_base.scss";
+
+/* MEDIA QUERIES */
+@import "utilities/_mediaqueries";
+
+
+
+/* FONTS  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');

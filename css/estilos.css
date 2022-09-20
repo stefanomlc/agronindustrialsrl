@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* Utilidades */ /* --------- Variables ---------- */
+/*Font-Sizes*/
+/* --------- Clases rápidas ---------- */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+.max__w450 {
+  max-width: 450px;
+}
+.max__w250 {
+  max-width: 250px;
+}
+.max__w150 {
+  max-width: 150px;
+}
+.max__h450 {
+  max-height: 450px;
+}
+.max__h250 {
+  max-height: 250px;
+}
+.max__h250 {
+  min-height: 250px;
+}
+
+.min__w250 {
+  min-width: 250px;
+}
+.min__w450 {
+  min-width: 450px;
+}
+
+.degradez {
+  background-image: linear-gradient(to right, rgb(130, 118, 218), rgb(105, 88, 222));
+  border: 0px;
+}
+
+.fondo {
+  background-color: #1e17df;
+}
+
+.color__blanco {
+  color: #ffffff;
+}
+
+.fondo_blanco {
+  background-color: #ffffff;
+}
+
+.color__primario {
+  color: #302F4D;
+}
+
+.fuente__negra {
+  color: #1a1a1a;
+}
+
+/* ----- mixin ----- */
+/* VISTAS INDEX */
+/* LAYOUTS  */
+/* Componentes */
+/* BASE DEL HTML */
+*::after *::before A * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* helpers */
+html {
+  font-size: 62.5%;
+  background-color: #ffffff;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* MEDIA QUERIES */
+/* FONTS  *//*# sourceMappingURL=estilos.css.map */
