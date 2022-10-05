@@ -5,42 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agroindustrial - Maego SRL</title>
-    <link rel="stylesheet" href="estilos.css">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
     <!-- MENU -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-              <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+    <nav class="navbar navbar-expand-lg navbarra">
+        <div class="container justify-content-center navbarra__logo">
+            <a class="navbar-brand " href="#">
+              <img src="assets/img/Logo-Agro.png" alt="Bootstrap" width="" height="30">
             </a>
           </div>
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+            <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+              <ul class="navbar-nav navbarra__menu ">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link navbarra__link"  href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link navbarra__link" href="#">Carpidor</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link navbarra__link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbarra__link" href="#">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -48,7 +57,7 @@
       </nav>
 
       <!-- SLIDER -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div  id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -75,10 +84,57 @@
         </button>
       </div>
 
-      <div class="container">
+      <div data-aos="fade-up" class="container text-center fondogris titulo">
         <!-- Content here -->
-        <h1>Carpidor</h1>
+        <h1 class="">Carpidor</h1>
         <h4>CONTROL MECANICO DE MALEZAS</h4>
+      </div>
+
+      <div class="container text-center my-5 carpidor">
+        <div class="row align-items-center justify-content-center">
+          <div data-aos="fade-right" class="col-6 text-start carpidor__descripción">
+            <h4>¿Qué es?</h4>
+            <p>Una maquinaria Agrícola destinada
+              al control mecánico de malezas a baja
+              profunidad
+
+            <h4>Beneficios</h4>
+            <p>Controla todo tipo de mealezas sin remover la cobertura
+              vegetal ni alterar la estructura del terreno.
+            </p>
+            <p>Elimina huellas de tolvas y cosechadoras</p>
+            <p>Nivela la parte superior del campo</p>
+          </div>
+          <div data-aos="fade-left" class="col-6" >
+            <img src="assets//img/carpidor_lateral (Personalizado).jpg" class="carpidor__img" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center my-5 carpidor" >
+        <div class="row align-items-center justify-content-center flex-reverse">
+          <div data-aos="fade-left" class="col-6 text-start carpidor__descripción">
+            <h4>Ventajas de uso</h4>
+            <ul>
+              <li>Deja el sueo esponjoso, lo que permite uuna mejor absorción de agua,
+                evitando que esta corra por el lote.</li>
+              <li>Genera capilaridad, conserva mejor la humedad de la tierra.</li>
+              <li>Conserva la cobertura, deja una cama de siembra óptima.</li>
+              <li>Ahorro en agroquímicos, ya que su uso elimina malezas del suelo.</li>
+              <li>Alta rentabilidad, el equipo se amortiza en el primer uso</li>
+              <li>Beneficia en la liberación de nutrientes del suelo</li>
+            </ul>
+
+          </div>
+          <div data-aos="fade-right" class="col-6" >
+            <img src="assets//img/carpidor_frontal (Personalizado).jpg" class="carpidor__img" alt="">
+          </div>
+        </div>
+      </div>
+
+
+
+        </div>
       </div>
 
 
@@ -97,7 +153,13 @@
 
 
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="agroindustrial.js"></script>
+  
 </body>
 </html>

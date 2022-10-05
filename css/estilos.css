@@ -1,8 +1,51 @@
 @charset "UTF-8";
-/* Utilidades */ /* --------- Variables ---------- */
+/* BASE DEL HTML */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+*::after *::before body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* empezamos limpiando todo a cero */
+A * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* helpers */
+html {
+  font-family: "DM Sans", sans-serif;
+  font-size: 62.5%;
+  background-color: #ffffff;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Utilidades */
+/* --------- Variables ---------- */
+/* colores */
 /*Font-Sizes*/
 /* --------- Clases rápidas ---------- */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
 .max__w450 {
   max-width: 450px;
 }
@@ -57,41 +100,22 @@
 /* ----- mixin ----- */
 /* VISTAS INDEX */
 /* LAYOUTS  */
+.navbarra {
+  background-color: #2B518C;
+}
+.navbarra__logo {
+  justify-content: center;
+  background-color: var(#2b518c);
+}
+.navbarra__menu {
+  justify-content: center;
+  font-size: x-large;
+}
+
+.nav-link {
+  color: #dde3ec;
+}
+
 /* Componentes */
-/* BASE DEL HTML */
-*::after *::before A * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* helpers */
-html {
-  font-size: 62.5%;
-  background-color: #ffffff;
-  padding: 0;
-}
-
-h1 {
-  font-size: 5rem;
-}
-
-h2 {
-  font-size: 4rem;
-}
-
-h4 {
-  font-size: 3rem;
-}
-
-h6 {
-  font-size: 1.5rem;
-}
-
-p {
-  font-size: 18px;
-  font-weight: 400;
-}
-
 /* MEDIA QUERIES */
 /* FONTS  *//*# sourceMappingURL=estilos.css.map */

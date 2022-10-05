@@ -2,6 +2,11 @@
 @import "utilities/_variables";
 @import "utilities/_clasesrapidas";
 
+/* BASE DEL HTML */
+@import "_base.scss";
+
+
+
 /* VISTAS INDEX */
 @import "views/_index";
 
@@ -12,8 +17,7 @@
 /* Componentes */
 @import "components/botones";
 
-/* BASE DEL HTML */
-@import "_base.scss";
+
 
 /* MEDIA QUERIES */
 @import "utilities/_mediaqueries";

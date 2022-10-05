@@ -32,8 +32,11 @@
     background-image: linear-gradient(to right, rgba(130, 118, 218, 1), rgba(105, 88, 222, 1));
     border: 0px;
 }
-.fondo{
-    background-color: #1e17df;
+.fondoazul{
+    background-color: $azulfondo;
+}
+.fondogris{
+    background-color: #dde3ec;
 }
 
 .color__blanco{

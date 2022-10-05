@@ -1,0 +1,49 @@
+.titulo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carpidor{
+    padding-bottom: 80px;
+
+    &__descripción{
+        max-width: 500px;
+        h4 {
+        
+           margin-top: 5px;
+           margin-left: 35px;
+           margin-right: 35px;
+           margin-bottom: 18px; 
+        }
+        p {
+            margin-bottom: 30px;
+            margin-left: 35px;
+            margin-right: 35px;
+            font-weight: 400;
+        }
+        ul{
+            margin: 0px;
+            padding: 0px;
+        }
+         li {
+            list-style: none;
+            font-size: 20px;
+            margin-bottom: 30px;
+            margin-left: 35px;
+            margin-right: 35px;
+            font-weight: 400;
+        }
+
+    }
+    &__img{
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 5px;
+
+
+    }
+}
+.flex-reverse{
+    flex-direction: row-reverse;
+}

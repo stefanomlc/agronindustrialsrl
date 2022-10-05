@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* Utilidades */
+/* --------- Variables ---------- */
+/* colores */
+/*Font-Sizes*/
+/* --------- Clases rápidas ---------- */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+.max__w450 {
+  max-width: 450px; }
+
+.max__w250 {
+  max-width: 250px; }
+
+.max__w150 {
+  max-width: 150px; }
+
+.max__h450 {
+  max-height: 450px; }
+
+.max__h250 {
+  max-height: 250px; }
+
+.max__h250 {
+  min-height: 250px; }
+
+.min__w250 {
+  min-width: 250px; }
+
+.min__w450 {
+  min-width: 450px; }
+
+.degradez {
+  background-image: linear-gradient(to right, #8276da, #6958de);
+  border: 0px; }
+
+.fondoazul {
+  background-color: #2b518c; }
+
+.fondogris {
+  background-color: #dde3ec; }
+
+.color__blanco {
+  color: #ffffff; }
+
+.fondo_blanco {
+  background-color: #ffffff; }
+
+.color__primario {
+  color: #302F4D; }
+
+.fuente__negra {
+  color: #1a1a1a; }
+
+/* ----- mixin ----- */
+/* BASE DEL HTML */
+*::after
+*::before
+:root {
+  background-color: #dde3ec;
+  font-family: 'DM Sans', sans-serif; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #dde3ec; }
+
+/* empezamos limpiando todo a cero */
+A
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* helpers */
+html {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 62.5%;
+  background-color: #dde3ec;
+  padding: 0; }
+
+h1 {
+  font-size: 8rem;
+  font-weight: 600;
+  color: #455F86; }
+
+h2 {
+  font-size: 4rem; }
+
+h4 {
+  font-size: 3rem;
+  font-weight: 600; }
+
+h6 {
+  font-size: 1.5rem; }
+
+p {
+  font-size: 20px;
+  font-weight: 400; }
+
+/* VISTAS INDEX */
+.titulo {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.carpidor {
+  padding-bottom: 80px; }
+  .carpidor__descripción {
+    max-width: 500px; }
+    .carpidor__descripción h4 {
+      margin-top: 5px;
+      margin-left: 35px;
+      margin-right: 35px;
+      margin-bottom: 18px; }
+    .carpidor__descripción p {
+      margin-bottom: 30px;
+      margin-left: 35px;
+      margin-right: 35px;
+      font-weight: 400; }
+    .carpidor__descripción ul {
+      margin: 0px;
+      padding: 0px; }
+    .carpidor__descripción li {
+      list-style: none;
+      font-size: 20px;
+      margin-bottom: 30px;
+      margin-left: 35px;
+      margin-right: 35px;
+      font-weight: 400; }
+  .carpidor__img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px; }
+
+.flex-reverse {
+  flex-direction: row-reverse; }
+
+/* LAYOUTS  */
+.navbarra {
+  background-color: #2b518c;
+  height: 110px; }
+  .navbarra__logo img {
+    justify-content: center;
+    background-color: #2b518c;
+    height: 40px; }
+  .navbarra__menu, .navbarra li {
+    justify-content: center;
+    font-size: x-large;
+    color: #dde3ec;
+    background-color: #2b518c; }
+  .navbarra__link {
+    color: #dde3ec;
+    background-color: #2b518c;
+    margin: 0px 15px 0px 15px; }
+
+.nav-link {
+  color: #ffffff;
+  background-color: #2b518c; }
+
+.nav-item {
+  background-color: #2b518c; }
+
+/* Componentes */
+/* MEDIA QUERIES */
+/* FONTS  */

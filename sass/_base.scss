@@ -1,6 +1,16 @@
 *::after
 *::before
 
+:root{
+    background-color: #dde3ec;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: #dde3ec;
+}
+
 
 
 /* empezamos limpiando todo a cero */
@@ -9,18 +19,22 @@ A
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 /* helpers */
 
 html{
+    font-family: 'DM Sans', sans-serif;
     font-size: 62.5%;
-    background-color: #ffffff;
+    background-color: #dde3ec;
     padding: 0;
     
 }
 h1{
-    font-size: 5rem;
+    font-size:8rem;
+    font-weight: 600;
+    color: $secondary;
 
 }
 h2{
@@ -28,12 +42,13 @@ h2{
 }
 h4{
     font-size: 3rem;
+    font-weight: 600;
 }
 h6{
     font-size: 1.5rem;
 }
 p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
 }
 

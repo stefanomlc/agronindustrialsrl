@@ -1,0 +1,38 @@
+.navbarra {
+    background-color: $azulfondo;
+    height: 110px;
+    
+
+
+    &__logo img{
+        justify-content: center;
+        background-color: $azulfondo;
+        height: 40px;
+    }
+
+    &__menu, li {
+        justify-content: center;
+        font-size: x-large;
+        color: $accent;
+        background-color: $azulfondo;
+        
+
+    }
+
+    &__link {
+        color: $accent;
+        background-color: $azulfondo;
+        margin: 0px 15px 0px 15px
+    }
+        
+    
+}
+
+.nav-link{
+    color: #ffffff;
+    background-color: $azulfondo;
+    
+}
+.nav-item{
+    background-color: $azulfondo;
+}
