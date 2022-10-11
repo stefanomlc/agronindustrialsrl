@@ -54,6 +54,15 @@
 
 
 }
+.carousel-control-next-icon{
+    width: 4rem;
+    height: 4rem;
+}
+.carousel-control-prev-icon{
+    width: 4rem;
+    height: 4rem;
+}
+
 
 .segmento{
     p {
@@ -75,16 +84,82 @@
 }
 
 .testimonios{
+    h2 {
+        font-size: 5rem;
+        font-weight: 600;
+        color: $secondary;
+        margin-bottom: 35px;
+    }
     &__img{
         width: 50%;
         height: 50%;
         align-items: center;
         justify-content: center;
-        margin-left: 21.5vw;
-        margin-right: 21vw;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 17vw;
+        margin-right: 0vw;
+        border-radius: 5px;
+        filter: drop-shadow(10px 10px 12px #00000025);
+        
     }
 }
 
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+    
+}
 .flex-reverse{
     flex-direction: row-reverse;
+}
+
+.otrosProductos{
+    background-color: #dfebe8;
+    padding: 50px 0px 50px 0px;
+    width: 100vw;
+    
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    align-content: flex-start;
+
+    h2{
+        font-size: 5rem;
+        font-weight: 600;
+        color: #609a8b;
+        margin-bottom: 35px;
+    }
+    h5{
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #609a8b;
+        margin-bottom: 7px;
+    }
+    img{
+        max-height: 60vh;
+        width: 70vw;
+        border-radius: 5px;
+        filter: drop-shadow(10px 10px 12px #00000025);
+        object-fit: cover;
+        margin-bottom: 50px;
+    }
+    p{
+        
+        color: #609a8b;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+}
+
+.piedepagina{
+    background-color: $primary;
+    max-width: 100%;
+
 }
