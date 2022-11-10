@@ -88,7 +88,13 @@ input[type="submit"] {
 
 }
 
-.final{
+.final h5{
   color: $accent;
   padding-bottom: 20px;
+  font-size: $text-small;
+}
+
+.rrss{
+  margin: 15px;
+  height: 25px;
 }

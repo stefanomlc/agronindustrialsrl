@@ -1,6 +1,6 @@
 .titulo{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .carpidor{
@@ -173,6 +173,7 @@
     }
     &__carrusel{
         padding-bottom: 130px;
+        max-width: 600px;
     }
 }
 

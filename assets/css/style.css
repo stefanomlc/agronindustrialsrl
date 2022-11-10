@@ -23,6 +23,9 @@
 .max__h250 {
   min-height: 250px; }
 
+.max__w1140 {
+  max-width: 1140px; }
+
 .min__w250 {
   min-width: 250px; }
 
@@ -99,7 +102,7 @@ p {
 /* VISTAS INDEX */
 .titulo {
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 0px; }
 
 .carpidor {
   padding-bottom: 80px; }
@@ -223,7 +226,8 @@ p {
   font-size: 2.5rem; }
 
 .testimonios__carrusel {
-  padding-bottom: 130px; }
+  padding-bottom: 130px;
+  max-width: 600px; }
 
 .container {
   --bs-gutter-x: 0rem; }
@@ -299,9 +303,14 @@ input[type="submit"] {
   color: #dde3ec;
   font-size: 2rem; }
 
-.final {
+.final h5 {
   color: #dde3ec;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-size: 1.4em; }
+
+.rrss {
+  margin: 15px;
+  height: 25px; }
 
 .navbarra {
   background-color: #2b518c;
@@ -329,7 +338,7 @@ input[type="submit"] {
 
 /* Componentes */
 /* MEDIA QUERIES */
-@media (min-width: 1400px) {
+@media (min-width: 100px) {
   .container {
     max-width: 100%; } }
 
