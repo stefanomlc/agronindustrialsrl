@@ -146,8 +146,8 @@ p {
 
 .segmento p {
   margin-bottom: 10px;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 30px;
+  margin-right: 30px;
   font-weight: 500; }
 
 .segmento__icono {
@@ -163,18 +163,6 @@ p {
   font-weight: 600;
   color: #455F86;
   margin-bottom: 35px; }
-
-.testimonios__img {
-  width: 50%;
-  height: 50%;
-  align-items: center;
-  justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 17vw;
-  margin-right: 0vw;
-  border-radius: 5px;
-  filter: drop-shadow(10px 10px 12px #00000025); }
 
 .carousel-item {
   position: relative;
@@ -192,7 +180,6 @@ p {
 .otrosProductos {
   background-color: #dfebe8;
   padding: 50px 0px 50px 0px;
-  width: 100vw;
   margin: 0px 0px 0px 0px;
   align-items: center;
   align-content: flex-start; }
@@ -222,6 +209,25 @@ p {
   background-color: #2B518C;
   max-width: 100%; }
 
+.swiper-slide {
+  flex-shrink: 0;
+  width: auto;
+  height: 600;
+  position: relative;
+  transition-property: transform; }
+
+.clientes__col {
+  width: 1000px; }
+
+.testimonios__h5 {
+  font-size: 2.5rem; }
+
+.testimonios__carrusel {
+  padding-bottom: 130px; }
+
+.container {
+  --bs-gutter-x: 0rem; }
+
 /* LAYOUTS  */
 .field {
   margin-bottom: 10px; }
@@ -244,6 +250,58 @@ input[type="submit"] {
   background-color: #4460AA;
   color: #fff;
   border: none; }
+
+footer {
+  background-color: #2B518C; }
+
+.field input {
+  border: 1px solid #dde3ec;
+  padding: .5em;
+  width: clamp(400px, 400px, 500px);
+  margin: 15px;
+  border-radius: 5px;
+  /* min-width: 250px; */
+  line-height: 1px;
+  font-size: 14px; }
+
+.formu {
+  margin: 45px 0 35px 0;
+  padding: 10px 35px 10px 35px;
+  background-color: #dde3ec;
+  border-radius: 5px;
+  font-family: 'DM Sans', sans-serif;
+  max-width: 1080px; }
+  .formu__titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2B518C;
+    text-align: start;
+    margin: 15px; }
+  .formu__msj {
+    min-height: 84px; }
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  width: clamp(400px, 400px, 500px);
+  background-color: #2B518C;
+  margin: 0px 15px 15px 15px;
+  color: #fff;
+  border: none; }
+
+.infocontacto p {
+  font-size: 1.2rem;
+  color: #dde3ec;
+  margin: 0px; }
+
+.infocontacto h5 {
+  color: #dde3ec;
+  font-size: 2rem; }
+
+.final {
+  color: #dde3ec;
+  padding-bottom: 20px; }
 
 .navbarra {
   background-color: #2b518c;
@@ -271,4 +329,8 @@ input[type="submit"] {
 
 /* Componentes */
 /* MEDIA QUERIES */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 100%; } }
+
 /* FONTS  */

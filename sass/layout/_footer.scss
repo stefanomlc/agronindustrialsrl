@@ -23,3 +23,72 @@
     color: #fff;
     border: none
   }
+
+  footer{
+    background-color: $primary;
+  }
+
+
+.field input{
+    border: 1px solid $accent;
+    padding: .5em;
+    width: clamp(400px, 400px, 500px);
+    margin: 15px;
+    
+    border-radius: 5px;
+    /* min-width: 250px; */
+    line-height: 1px;
+    font-size: 14px;
+  
+  }
+
+.formu{
+  margin: 45px 0 35px 0;
+  padding: 10px 35px 10px 35px ;
+  background-color: $accent;
+  border-radius: 5px;  
+  font-family: 'DM Sans', sans-serif;
+  max-width: 1080px;
+
+  &__titulo{
+    font-size: 2rem;
+    font-weight: 600;
+    color: $primary;
+    text-align: start;    
+    margin: 15px;
+    }
+
+  &__msj {
+    min-height: 84px;
+  }
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  width: clamp(400px, 400px, 500px);
+  background-color: $primary;
+  margin: 0px 15px 15px 15px;
+  color: #fff;
+  border: none;
+}
+
+.infocontacto  {
+  p{
+    font-size: 1.2rem;
+    color: $accent;
+    margin: 0px;
+  }
+  h5{
+    color: $accent;
+    font-size: 2rem;
+  
+  }
+
+}
+
+.final{
+  color: $accent;
+  padding-bottom: 20px;
+}
