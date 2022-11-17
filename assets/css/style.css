@@ -394,7 +394,7 @@ input[type="submit"] {
   .formu__titulo {
     text-align: center; } }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800) {
   .row {
     flex-direction: column;
     padding-right: none;
