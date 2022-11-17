@@ -8,6 +8,12 @@
 
 }
 
+@media screen  and (max-width: 1300px){
+
+
+}
+
+
 @media screen  and (max-width: 1200px){
     .row{
         margin-top: 0;
@@ -31,16 +37,35 @@
     .container-fluid{
         justify-content: center;
     }
+    .formu{
+        margin: 35px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .formu__titulo{
+        text-align: center;
+    }
 
 }
 
  @media screen  and (max-width: 800px){
     .row{
         flex-direction: column;
+        padding-right: none;
+        padding-left: none;
+        margin-top: none;
+        align-items: center;
+        
+    }
+    .row*{
+        flex-direction: column;
         padding-right: 0;
         padding-left: 0;
         margin-top: 0;
         align-items: center;
+        width: auto;
     }
     .col-6{
         align-items: center;
@@ -52,4 +77,25 @@
         padding-left: 0;
 
     }
+    .formu{
+        margin: 35px;
+    }
+}
+@media screen  and (max-width: 500px){
+    .field input{
+        width: 75%;
+    }
+    #buttonContacto{
+        width: 75%;
+        padding: 10px;
+    }
+}
+@media screen  and (max-width: 500px){
+    h1{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 27x;
+    }
+
 }
