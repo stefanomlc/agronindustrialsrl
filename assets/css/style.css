@@ -392,7 +392,10 @@ input[type="submit"] {
     align-content: center;
     align-items: center; }
   .formu__titulo {
-    text-align: center; } }
+    text-align: center; }
+  .carpidor {
+    display: flex;
+    flex-direction: column; } }
 
 @media screen and (max-width: 800) {
   .row {

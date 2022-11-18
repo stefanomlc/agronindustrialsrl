@@ -19,6 +19,7 @@
         margin-top: 0;
         margin-right: 0;
         margin-left: 0;
+        
     }
 
     .navbarra{
@@ -47,7 +48,15 @@
     .formu__titulo{
         text-align: center;
     }
+    .carpidor{
+        display: flex;
+        flex-direction: column;
+    }
 
+}
+@media screen  and (max-width: 1000px) {
+    .row{
+    }
 }
 @media screen and (max-width: 800){
     .row{
