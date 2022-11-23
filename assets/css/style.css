@@ -232,6 +232,15 @@ p {
 .container {
   --bs-gutter-x: 0rem; }
 
+.container-fluid {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto; }
+
 /* LAYOUTS  */
 .field {
   margin-bottom: 10px; }
@@ -343,7 +352,7 @@ input[type="submit"] {
   height: 60px;
   line-height: 63px;
   bottom: 25px;
-  right: 25px;
+  left: 35px;
   background: #25d366;
   color: #FFF;
   border-radius: 50px;

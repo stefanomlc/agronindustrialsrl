@@ -180,5 +180,15 @@
 //container
 .container{
     --bs-gutter-x: 0rem;
+    
+    
 }
-
+.container-fluid{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
